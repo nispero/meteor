@@ -60,7 +60,8 @@ Ctl.Commands.push({
           "email": {
             url: appConfig.MAIL_URL
           }
-        }
+        },
+        proxyServiceName: appConfig.proxyServiceName || "proxy"
       };
 
       // XXX args? env?
